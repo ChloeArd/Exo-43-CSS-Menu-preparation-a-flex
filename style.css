@@ -44,8 +44,7 @@ header, .baars {
     display: none;
 }
 
-
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 800px) {
     .baars {
         display: inline-block;
         margin-right: 700px;
