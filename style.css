@@ -55,6 +55,10 @@ header, .baars {
         display: none;
     }
 
+    a {
+        padding: 10px;
+    }
+
     header {
         display: block;
         width: 100%;
