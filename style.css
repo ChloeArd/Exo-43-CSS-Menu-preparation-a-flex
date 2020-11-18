@@ -69,14 +69,6 @@ header, .baars {
         padding-top: 20px;
     }
 
-    nav:hover a{
-        display: block;
-        width: 50%;
-        height: 100%;
-        background-color: white;
-        animation-name: none;
-    }
-
     .baars {
         animation-name: tourner;
         animation-duration: 10s;
@@ -85,14 +77,18 @@ header, .baars {
     }
 
     @keyframes tourner {
-
         0% {
             transform: rotate(180deg);
         }
     }
 
-    .baars:hover a {
-        animation-name:none;
+    nav:hover a{
+        display: block;
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        animation-name: none;
     }
+    
 }
 
