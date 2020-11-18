@@ -91,4 +91,8 @@ header, .baars {
         }
     }
 
+    .baars:hover a {
+        animation-name:none;
+    }
+}
 
